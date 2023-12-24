@@ -126,6 +126,11 @@ nav {
   z-index: 10;
   left: 0;
   top: 0;
+  background: var(--color-white);
+}
+
+.nav-scroll {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
 
 .nav-container {
@@ -392,3 +397,7 @@ footer {
   font-size: 19px;
 }
 /* Footer End*/
+
+/* Media Query Start */
+
+/* Media Query End */
