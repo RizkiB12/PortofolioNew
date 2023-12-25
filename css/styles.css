@@ -451,7 +451,7 @@ footer {
   /* Header Start */
   .header-container {
     grid-template-columns: 1fr;
-    margin-top: 5rem;
+    margin-top: 12rem;
   }
   .header-left {
     text-align: center;
@@ -493,15 +493,65 @@ footer {
 }
 @media (max-width: 600px) {
   h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
   h2 {
-    font-size: 36px;
+    font-size: 34px;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  .btn {
+    padding: 10px 22px;
   }
   .nav-links {
     width: 18rem;
   }
   /* Header Start */
+  .circle {
+    height: 16rem;
+    width: 16rem;
+  }
+  .circle a {
+    height: 3rem;
+    width: 3rem;
+    font-size: 20px;
+  }
+  .circle a:nth-child(1) {
+    left: calc(50% - 1.5rem);
+    top: -1.5rem;
+  }
+  .circle a:nth-child(2) {
+    top: calc(50% - 1.5rem);
+    right: -1.5rem;
+  }
+  .circle a:nth-child(3) {
+    top: calc(50% - 1.5rem);
+    left: -1.5rem;
+  }
+  .circle a:nth-child(4) {
+    left: calc(50% - 1.5rem);
+    bottom: -1.5rem;
+  }
+  .hero-image {
+    height: 12rem;
+    width: 12rem;
+  }
+  /* Portofolio Start */
+  .portofolio-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .project-action {
+    margin: 0;
+  }
 }
 
 /* Media Query End */
