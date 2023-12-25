@@ -206,7 +206,7 @@ header {
   align-items: center;
 }
 .header-container h3 {
-  margin: 1rem 0;
+  margin: 1rem 0 3rem 0;
   color: var(--color-primary);
 }
 .header-container p {
@@ -451,7 +451,7 @@ footer {
   /* Header Start */
   .header-container {
     grid-template-columns: 1fr;
-    margin-top: 12rem;
+    margin-top: 8rem;
   }
   .header-left {
     text-align: center;
