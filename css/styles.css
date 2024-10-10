@@ -210,7 +210,7 @@ header {
   color: var(--color-primary);
 }
 .header-container p {
-  margin: 0 0 2rem;
+  margin: 1rem 0 2rem;
 }
 
 .header-right {
@@ -280,7 +280,7 @@ header {
 /* About Start */
 .about-container {
   display: grid;
-  grid-template-columns: 36% auto;
+  grid-template-columns: 40% auto;
   gap: 4%;
   padding: 0 5rem;
   align-items: center;
@@ -289,7 +289,6 @@ header {
   border-radius: 50%;
   overflow: hidden;
   border: 0.8rem solid var(--color-primary);
-  background: var(--color-primary);
 }
 .about-image img {
   object-fit: cover;
