@@ -268,12 +268,16 @@ header {
 }
 .hero-image {
   position: absolute;
-  height: 22rem;
-  width: 22rem;
+  height: 24rem;
+  width: 24rem;
   padding: 1rem;
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* border-radius: 50%; */
+  /* background: var(--color-primary); */
+}
+
+.hero-image img {
   border-radius: 50%;
-  background: var(--color-primary);
 }
 /* Header End */
 
@@ -332,8 +336,8 @@ header {
 }
 /* Skills End */
 
-/* Portofolio Start */
-#Portofolio {
+/* Project Start */
+#Project {
   background: var(--bg-variant);
 }
 .portofolio-container {
