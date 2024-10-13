@@ -14,4 +14,4 @@ jobs:
         server: 153.92.11.26
         username: u479501366.portofolio
         password: 1kzSjBAA9*ta~kA~
-        server-dir: /domains/rizkibagus.my.id/public_html/portfolio/
+        server-dir: portfolio/
